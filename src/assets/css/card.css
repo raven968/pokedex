@@ -1,0 +1,36 @@
+
+
+.content {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.container {
+    width: 30%;
+    display: flex;
+    box-shadow: 10px 10px 5px rgba(120, 121, 121, .5);
+}
+
+.header {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header p {
+    margin: 20px;
+}
+
+.header img {
+    margin-bottom: 20px;
+}
+
+.info {
+    margin-top: 10%;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+}
