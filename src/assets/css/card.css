@@ -1,7 +1,7 @@
 
 
 .content {
-    margin-top: 50px;
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -9,8 +9,12 @@
 
 .container {
     width: 30%;
-    display: flex;
     box-shadow: 10px 10px 5px rgba(120, 121, 121, .5);
+    background-color: #96C7C1;
+}
+
+.pokemon {
+    display: flex;
 }
 
 .header {
@@ -28,9 +32,59 @@
     margin-bottom: 20px;
 }
 
+.search {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.search input {
+    border: none;
+    border-radius: 5px;
+}
+
 .info {
-    margin-top: 10%;
+    margin-top: 4%;
+    margin-bottom: 4%;
     width: 65%;
     display: flex;
     justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    border-left: 1px solid black;
+}
+
+.name {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 24px;
+}
+
+.stats {
+    display: flex;
+}
+
+.stats1 p {
+ text-transform: uppercase;
+}
+
+.stats1 div {
+    margin: 10px;
+}
+
+.stats2 p {
+    text-transform: uppercase;
+}
+
+.stats2 div {
+    margin: 10px;
+}
+
+.btn-search {
+    padding: 10px;
+    margin-left: 10px;
+    background-color: #DED9C4;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
 }
