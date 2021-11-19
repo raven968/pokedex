@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { findAllInRenderedTree } from 'react-dom/test-utils';
 import '../assets/css/card.css'
 
 //const img = './img/arceus.jpeg'
